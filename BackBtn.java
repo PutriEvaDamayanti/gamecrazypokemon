@@ -15,5 +15,7 @@ public class BackBtn extends Buttons
     public void act() 
     {
         // Add your action code here.
+        super.act(this.getClass().getName());
+          Menus.titleSound.stop();
     }    
 }

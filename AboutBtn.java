@@ -15,5 +15,6 @@ public class AboutBtn extends Buttons
     public void act() 
     {
         // Add your action code here.
+        super.act(this.getClass().getName());
     }    
 }
