@@ -20,5 +20,14 @@ public class Buttons extends Actor
         } else if (Greenfoot.mouseMoved(null)) {
             setImage(buttonName + ".png");
         }
+        if (Greenfoot.mouseClicked(this)) {
+            setImage(buttonName + ".png");
+            Greenfoot.delay(5); 
+            if      (buttonName.equalsIgnoreCase("StartBtn")) Greenfoot.setWorld(new MenuScreen());
+            else if (buttonName.equalsIgnoreCase("AboutBtn")) Greenfoot.setWorld(new AboutScreen());
+            else if (buttonName.equalsIgnoreCase("HelpBtn"))  Greenfoot.setWorld(new HelpScreen());
+            else if (buttonName.equalsIgnoreCase("BackBtn"))  Greenfoot.setWorld(new MenuScreen());
+            else if (buttonName.equalsIgnoreCase("ExitBtn"))  Greenfoot.stop();
+        }
     }    
 }
