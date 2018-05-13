@@ -32,5 +32,22 @@ public class Ground extends World
         addObject(asphalt, 290, 37);
         Asphalt asphalt2 = new Asphalt();
         addObject(asphalt2, 298, 114);
+        asphalt2.setLocation(290, 106);
+        Asphalt asphalt3 = new Asphalt();
+        addObject(asphalt3, 295, 199);
+        asphalt3.setLocation(290, 179);
+        Asphalt asphalt4 = new Asphalt();
+        addObject(asphalt4, 300, 252);
+        asphalt4.setLocation(291, 248);
+        Asphalt asphalt5 = new Asphalt();
+        addObject(asphalt5, 348, 306);
+        asphalt5.setLocation(292, 315);
+        Asphalt asphalt6 = new Asphalt();
+        addObject(asphalt6, 298, 389);
+        asphalt6.setLocation(293, 380);
+        asphalt.setLocation(289, 25);
+        asphalt2.setLocation(289, 76);
+        Asphalt asphalt7 = new Asphalt();
+        addObject(asphalt7, 364, 159);
     }
 }
