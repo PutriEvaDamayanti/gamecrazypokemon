@@ -1,21 +1,19 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=90bae2bce4d946165eabb96d6dd25eadc61b98c9
 class.AboutBtn.image=AboutBtn.png
 class.AboutBtn.superclass=Buttons
 class.AboutScreen.image=AboutScreen.png
 class.AboutScreen.superclass=Menus
 class.BackBtn.image=BackBtn.png
 class.BackBtn.superclass=Buttons
-<<<<<<< HEAD
 class.Background.image=rumput.png
 class.Background.superclass=greenfoot.Actor
 class.Bola.image=ball.png
 class.Bola.superclass=greenfoot.Actor
 class.BolaBiru.image=ball2.png
 class.BolaBiru.superclass=greenfoot.Actor
-=======
-class.Bola.image=ball.png
-class.Bola.superclass=greenfoot.Actor
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 class.Buttons.superclass=greenfoot.Actor
 class.Coin.image=pokemongo.png
 class.Coin.superclass=greenfoot.Actor
@@ -35,26 +33,26 @@ class.StartBtn.image=StartBtn.png
 class.StartBtn.superclass=Buttons
 class.StoryScreen.image=MenuScreen.png
 class.StoryScreen.superclass=Menus
-dependency1.from=StartBtn
-dependency1.to=Menus
+dependency1.from=Ground
+dependency1.to=Bola
 dependency1.type=UsesDependency
-dependency10.from=Buttons
-dependency10.to=MenuScreen
+dependency10.from=Menus
+dependency10.to=ExitBtn
 dependency10.type=UsesDependency
-dependency11.from=StartBtn
-dependency11.to=Menus
+dependency11.from=Menus
+dependency11.to=BackBtn
 dependency11.type=UsesDependency
-dependency12.from=ExitBtn
-dependency12.to=MenuScreen
+dependency12.from=Buttons
+dependency12.to=AboutScreen
 dependency12.type=UsesDependency
-dependency13.from=Menus
-dependency13.to=AboutBtn
+dependency13.from=Buttons
+dependency13.to=HelpScreen
 dependency13.type=UsesDependency
-dependency14.from=Menus
-dependency14.to=ExitBtn
+dependency14.from=Buttons
+dependency14.to=MenuScreen
 dependency14.type=UsesDependency
 dependency15.from=Buttons
-dependency15.to=HelpScreen
+dependency15.to=Ground
 dependency15.type=UsesDependency
 dependency16.from=Buttons
 dependency16.to=MenuScreen
@@ -68,8 +66,8 @@ dependency18.type=UsesDependency
 dependency19.from=ground
 dependency19.to=Asphalt
 dependency19.type=UsesDependency
-dependency2.from=BackBtn
-dependency2.to=Menus
+dependency2.from=Ground
+dependency2.to=Background
 dependency2.type=UsesDependency
 dependency20.from=ground
 dependency20.to=Tree
@@ -101,8 +99,8 @@ dependency28.type=UsesDependency
 dependency29.from=Bola
 dependency29.to=BolaBiru
 dependency29.type=UsesDependency
-dependency3.from=Menus
-dependency3.to=StartBtn
+dependency3.from=Ground
+dependency3.to=BolaBiru
 dependency3.type=UsesDependency
 dependency30.from=Bola
 dependency30.to=Coin
@@ -113,38 +111,34 @@ dependency31.type=UsesDependency
 dependency32.from=Bola
 dependency32.to=Point
 dependency32.type=UsesDependency
-dependency4.from=Menus
-dependency4.to=HelpBtn
+dependency4.from=Ground
+dependency4.to=Coin
 dependency4.type=UsesDependency
-dependency5.from=Menus
-dependency5.to=AboutBtn
+dependency5.from=StartBtn
+dependency5.to=Menus
 dependency5.type=UsesDependency
-dependency6.from=Menus
-dependency6.to=ExitBtn
+dependency6.from=BackBtn
+dependency6.to=Menus
 dependency6.type=UsesDependency
 dependency7.from=Menus
-dependency7.to=BackBtn
+dependency7.to=StartBtn
 dependency7.type=UsesDependency
-dependency8.from=Buttons
-dependency8.to=AboutScreen
+dependency8.from=Menus
+dependency8.to=HelpBtn
 dependency8.type=UsesDependency
-dependency9.from=Buttons
-dependency9.to=HelpScreen
+dependency9.from=Menus
+dependency9.to=AboutBtn
 dependency9.type=UsesDependency
-editor.fx.0.height=735
-editor.fx.0.width=816
-editor.fx.0.x=471
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
 editor.fx.0.y=0
 mainWindow.height=744
 mainWindow.width=1378
 mainWindow.x=-8
 mainWindow.y=-8
-package.numDependencies=10
-<<<<<<< HEAD
+package.numDependencies=15
 package.numTargets=15
-=======
-package.numTargets=12
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 project.charset=UTF-8
 readme.editor.height=700
 readme.editor.width=900
@@ -160,11 +154,7 @@ target1.editor.width=1374
 target1.editor.x=-4
 target1.editor.y=-4
 target1.height=50
-<<<<<<< HEAD
 target1.name=Background
-=======
-target1.name=HelpBtn
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
@@ -177,28 +167,20 @@ target10.editor.width=863
 target10.editor.x=303
 target10.editor.y=43
 target10.height=50
-<<<<<<< HEAD
 target10.name=Coin
-=======
-target10.name=Menus
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target10.naviview.expanded=true
 target10.showInterface=false
-target10.type=AbstractTarget
+target10.type=ClassTarget
 target10.typeParameters=
 target10.width=80
-target10.x=70
-target10.y=10
+target10.x=0
+target10.y=0
 target11.editor.height=700
 target11.editor.width=900
 target11.editor.x=40
 target11.editor.y=20
 target11.height=50
-<<<<<<< HEAD
 target11.name=BackBtn
-=======
-target11.name=Buttons
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target11.naviview.expanded=true
 target11.showInterface=false
 target11.type=ClassTarget
@@ -211,11 +193,7 @@ target12.editor.width=900
 target12.editor.x=41
 target12.editor.y=30
 target12.height=50
-<<<<<<< HEAD
 target12.name=AboutScreen
-=======
-target12.name=Bola
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target12.naviview.expanded=true
 target12.showInterface=false
 target12.type=ClassTarget
@@ -259,7 +237,7 @@ target15.naviview.expanded=true
 target15.showInterface=false
 target15.type=ClassTarget
 target15.typeParameters=
-target15.width=80
+target15.width=90
 target15.x=0
 target15.y=0
 target16.editor.height=700
@@ -319,16 +297,12 @@ target2.editor.width=1374
 target2.editor.x=-8
 target2.editor.y=0
 target2.height=50
-<<<<<<< HEAD
 target2.name=HelpBtn
-=======
-target2.name=Ground
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
-target2.width=80
+target2.width=90
 target2.x=0
 target2.y=0
 target20.editor.height=680
@@ -358,28 +332,20 @@ target3.editor.width=900
 target3.editor.x=40
 target3.editor.y=20
 target3.height=50
-<<<<<<< HEAD
 target3.name=Ground
-=======
-target3.name=HelpScreen
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target3.naviview.expanded=true
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
-target3.width=90
-target3.x=120
-target3.y=190
+target3.width=80
+target3.x=0
+target3.y=0
 target4.editor.height=680
 target4.editor.width=900
 target4.editor.x=41
 target4.editor.y=0
 target4.height=50
-<<<<<<< HEAD
 target4.name=HelpScreen
-=======
-target4.name=StartBtn
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target4.naviview.expanded=true
 target4.showInterface=false
 target4.type=ClassTarget
@@ -392,28 +358,20 @@ target5.editor.width=900
 target5.editor.x=79
 target5.editor.y=70
 target5.height=50
-<<<<<<< HEAD
 target5.name=StartBtn
-=======
-target5.name=ExitBtn
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target5.naviview.expanded=true
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
-target5.width=80
-target5.x=0
-target5.y=0
+target5.width=90
+target5.x=120
+target5.y=190
 target6.editor.height=680
 target6.editor.width=900
 target6.editor.x=41
 target6.editor.y=0
 target6.height=50
-<<<<<<< HEAD
 target6.name=ExitBtn
-=======
-target6.name=AboutBtn
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=ClassTarget
@@ -426,34 +384,20 @@ target7.editor.width=900
 target7.editor.x=40
 target7.editor.y=30
 target7.height=50
-<<<<<<< HEAD
 target7.name=BolaBiru
-=======
-target7.name=MenuScreen
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target7.naviview.expanded=true
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
-<<<<<<< HEAD
 target7.width=80
 target7.x=0
 target7.y=0
-=======
-target7.width=100
-target7.x=110
-target7.y=130
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target8.editor.height=700
 target8.editor.width=900
 target8.editor.x=40
 target8.editor.y=20
 target8.height=50
-<<<<<<< HEAD
 target8.name=AboutBtn
-=======
-target8.name=BackBtn
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target8.naviview.expanded=true
 target8.showInterface=false
 target8.type=ClassTarget
@@ -466,23 +410,13 @@ target9.editor.width=900
 target9.editor.x=41
 target9.editor.y=0
 target9.height=50
-<<<<<<< HEAD
 target9.name=MenuScreen
-=======
-target9.name=AboutScreen
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 target9.naviview.expanded=true
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
-<<<<<<< HEAD
 target9.width=100
 target9.x=110
 target9.y=130
-=======
-target9.width=90
-target9.x=0
-target9.y=0
->>>>>>> 90bae2bce4d946165eabb96d6dd25eadc61b98c9
 version=3.0.0
 world.lastInstantiated=MenuScreen

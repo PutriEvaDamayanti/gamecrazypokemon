@@ -29,7 +29,7 @@ public class Buttons extends Actor
         if (Greenfoot.mouseClicked(this)) {
             setImage(buttonName + ".png");
             Greenfoot.delay(5); 
-            if      (buttonName.equalsIgnoreCase("StartBtn")) Greenfoot.setWorld(new MenuScreen());
+            if      (buttonName.equalsIgnoreCase("StartBtn")) Greenfoot.setWorld(new Ground());
             else if (buttonName.equalsIgnoreCase("AboutBtn")) Greenfoot.setWorld(new AboutScreen());
             else if (buttonName.equalsIgnoreCase("HelpBtn"))  Greenfoot.setWorld(new HelpScreen());
             else if (buttonName.equalsIgnoreCase("BackBtn"))  Greenfoot.setWorld(new MenuScreen());
