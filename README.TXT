@@ -1,2 +1,5 @@
 Game 
 Pokemon
+baru
+lagi
+
