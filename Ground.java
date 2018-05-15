@@ -79,7 +79,22 @@ public class Ground extends World
         addObject(tree7, 507, 356);
         Tree tree8 = new Tree();
         addObject(tree8, 32, 45);
-        
+        Bola bola = new Bola();
+        addObject(bola, 300, 363);
+        bola.setLocation(292, 359);
+        Tree tree9 = new Tree();
+        addObject(tree9, 567, 53);
+        BolaBiru bolabiru = new BolaBiru();
+        addObject(bolabiru, 284, 72);
+        asphalt8.setLocation(289, 175);
+        asphalt3.setLocation(289, 225);
+        asphalt4.setLocation(289, 275);
+        bola.setLocation(200, 358);
+        asphalt5.setLocation(289, 325);
+        asphalt6.setLocation(289, 375);
+        bola.setLocation(291, 360);
+        bola.setLocation(221, 349);
+        removeObject(bola);
         
         
     }
