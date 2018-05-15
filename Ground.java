@@ -49,5 +49,38 @@ public class Ground extends World
         asphalt2.setLocation(289, 76);
         Asphalt asphalt7 = new Asphalt();
         addObject(asphalt7, 364, 159);
+        asphalt5.setLocation(293, 330);
+        asphalt4.setLocation(293, 281);
+        asphalt3.setLocation(293, 231);
+        asphalt2.setLocation(289, 75);
+        asphalt7.setLocation(289, 125);
+        Asphalt asphalt8 = new Asphalt();
+        addObject(asphalt8, 295, 183);
+        asphalt8.setLocation(289, 174);
+        asphalt3.setLocation(288, 224);
+        asphalt3.setLocation(289, 224);
+        asphalt4.setLocation(289, 274);
+        asphalt5.setLocation(288, 323);
+        asphalt5.setLocation(289, 324);
+        asphalt6.setLocation(289, 374);
+        Tree tree = new Tree();
+        addObject(tree, 443, 86);
+        Tree tree2 = new Tree();
+        addObject(tree2, 521, 245);
+        Tree tree3 = new Tree();
+        addObject(tree3, 106, 123);
+        Tree tree4 = new Tree();
+        addObject(tree4, 153, 231);
+        Tree tree5 = new Tree();
+        addObject(tree5, 68, 351);
+        Tree tree6 = new Tree();
+        addObject(tree6, 389, 200);
+        Tree tree7 = new Tree();
+        addObject(tree7, 507, 356);
+        Tree tree8 = new Tree();
+        addObject(tree8, 32, 45);
+        
+        
+        
     }
 }
