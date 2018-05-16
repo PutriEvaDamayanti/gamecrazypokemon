@@ -95,6 +95,45 @@ public class Ground extends World
         bola.setLocation(291, 360);
         bola.setLocation(221, 349);
         removeObject(bola);
+        Bola bola2 = new Bola();
+        addObject(bola2, 342, 347);
+        bola2.setLocation(297, 359);
+        tree6.setLocation(531, 164);
+        Background background = new Background();
+        addObject(background, 154, 40);
+        background.setLocation(142, 24);
+        Background background2 = new Background();
+        addObject(background2, 153, 98);
+        background2.setLocation(142, 74);
+        Background background3 = new Background();
+        addObject(background3, 165, 179);
+        background3.setLocation(142, 124);
+        Background background4 = new Background();
+        addObject(background4, 142,  269);
+        background4.setLocation(132, 179);
+        Background background5 = new Background();
+        addObject(background5, 93, 294);
+        background5.setLocation(142, 224);
+        Background background6 = new Background();
+        addObject(background6, 226, 352);
+        background6.setLocation(142, 274);
+        Background background7 = new Background();
+        addObject(background7, 459, 363);
+        background7.setLocation(142, 324);
+        Background background8 = new Background();
+        addObject(background8, 440, 315);
+        background8.setLocation(142, 374);
+        Background background9 = new Background();
+        addObject(background9, 154, 40);
+        background9.setLocation(463, 24);
+        Background background10 = new Background();
+        addObject(background10, 153, 98);
+        background10.setLocation(463, 74);
+        Background background11 = new Background();
+        addObject(background11, 165, 179);
+        background11.setLocation(463, 124);
+        
+        
         
         
     }
