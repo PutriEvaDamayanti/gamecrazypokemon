@@ -132,6 +132,12 @@ public class Ground extends World
         Background background11 = new Background();
         addObject(background11, 165, 179);
         background11.setLocation(463, 124);
+        Background background12 = new Background();
+        addObject(background12, 142, 269);
+        background12.setLocation(463, 179);
+        Background background13 = new Background();
+        addObject(background13, 93, 294);
+        background13.setLocation(463, 224);
         
         
         
