@@ -19,6 +19,10 @@ public class Bola extends Actor
         // Add your action code here.
         if(count==80){
             getWorld().addObject(new BolaBiru(), Greenfoot.getRandomNumber(180)+200,0);
-            getWorld()
-    }    
+            getWorld().addObject(new Coin(), Greenfoot.getRandomNumber(180)+200,0);
+            count=0;
+        } 
+        else{
+        count++;
+        }
 }
