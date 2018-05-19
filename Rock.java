@@ -19,5 +19,6 @@ public class Rock extends Actor
        if (isAtEdge()){
            setLocation(getX(),0);
        }
+       
     }    
 }
