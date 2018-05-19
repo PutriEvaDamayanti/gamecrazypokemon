@@ -32,5 +32,19 @@ public class Bola extends Actor
         
         if(isTouching(Coin.class)){
             getWorld().removeObject(getWorld().getObjects(Coin.class));
+            score++;
+            String scorestring=""+score;
+        }
+        else{
+            if(getX()>=200 && getX()<=380){
+                if (Greenfoot.isKeyDown("left")) {
+                    move(-3);
+                }
+                if (Greenfoot.isKeyDown("right")) {
+                    move(3);
+                }
+                if (Greenfoot.isKeyDown("up")) {
+                    setLocation(getX(),getY()-1);
+                }
     }
 }
