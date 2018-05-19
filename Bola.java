@@ -25,4 +25,12 @@ public class Bola extends Actor
         else{
         count++;
         }
+        
+        if(isTouching(BolaBiru.class)){
+            getWorld().addObject(new Crash(), 300,200);
+        }
+        
+        if(isTouching(Coin.class)){
+            getWorld()
+    }
 }
