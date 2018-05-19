@@ -31,6 +31,6 @@ public class Bola extends Actor
         }
         
         if(isTouching(Coin.class)){
-            getWorld().removeOb
+            getWorld().removeObject(getWorld().getObjects(Coin.class));
     }
 }
