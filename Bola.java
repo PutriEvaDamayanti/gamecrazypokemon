@@ -57,6 +57,17 @@ public class Bola extends Actor
                 if (Greenfoot.isKeyDown("right")) {
                     move(3);
                 }
+                if (Greenfoot.isKeyDown("down")) {
+                    setLocation(getX(),getY()+1);
+                }
             }
+            else {
+                if (Greenfoot.isKeyDown("left")) {
+                    move(-3);
+                }
+                if (Greenfoot.isKeyDown("up")) {
+                    setLocation(getX(),getY()-1);
+                }
+                
     }
 }
