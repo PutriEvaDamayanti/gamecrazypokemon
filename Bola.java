@@ -47,7 +47,7 @@ public class Bola extends Actor
                     setLocation(getX(),getY()-1);
                 }
                 if (Greenfoot.isKeyDown("down")) {
-                    setLocation(GetX(),getY()-1);
+                    setLocation(GetX(),getY()+1);
                 }
             }
             else if (getX()<200){
@@ -68,6 +68,10 @@ public class Bola extends Actor
                 if (Greenfoot.isKeyDown("up")) {
                     setLocation(getX(),getY()-1);
                 }
-                
+                if (Greenfoot.isKeyDown("down")) {
+                    setLocation(getX(),getY()+1);
+                }
+            }
     }
+}
 }

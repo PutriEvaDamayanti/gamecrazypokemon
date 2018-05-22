@@ -15,5 +15,12 @@ public class Coin extends Actor
     public void act() 
     {
         // Add your action code here.
+        setLocation(getX(),getY()+4);
+        Actor ball = getOneIntersectingObject(Bola.class);
+        world = getWorld();
+        if (isAtEdge())
+        {
+            world.removeObject(this);
+        }
     }    
 }
