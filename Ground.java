@@ -1,5 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import greenfoot.*;  //(World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class ground here.
  * 
@@ -10,7 +9,6 @@ public class ground extends World
 {
     static int skor = 0;
     static Point scores = null;
-
     /**
      * Constructor for objects of class ground.
      * 
@@ -31,12 +29,12 @@ public class ground extends World
     {
         return scores;
     }
+    
     /**
      * Prepare the world for the start of the program. That is: create the initial
      * objects and add them to the world.
      * 
      */
-    
     private void prepare()
     {
         Asphalt asphalt = new Asphalt();
@@ -164,6 +162,5 @@ public class ground extends World
         addObject(rock2, 42, 209);
         Rock rock3 = new Rock();
         addObject(rock2, 151, 378);
-        
     }
 }
