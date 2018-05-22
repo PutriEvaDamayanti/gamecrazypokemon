@@ -18,8 +18,8 @@ public class Crash extends Actor
       if (Greenfoot.mouseClicked(this))
       {
         
-        ground.skor = 0;
-        Greenfoot.setWorld(new ground());
+        Ground.skor = 0;
+        Greenfoot.setWorld(new Ground());
        
       }
         

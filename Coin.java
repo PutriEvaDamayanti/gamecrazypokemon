@@ -26,8 +26,8 @@ public class Coin extends Actor
          if(ball != null)
          {
             getWorld().removeObject(this);
-            ground.skor++;
-            ground.scores.setScore(ground.skor);
+            Ground.skor++;
+            Ground.scores.setScore(Ground.skor);
           
          }
         }

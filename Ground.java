@@ -5,7 +5,7 @@ import greenfoot.*;  //(World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ground extends World
+public class Ground extends World
 {
     static int skor = 0;
     static Point scores = null;
@@ -13,7 +13,7 @@ public class ground extends World
      * Constructor for objects of class ground.
      * 
      */
-    public ground()
+    public Ground()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
