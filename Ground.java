@@ -1,31 +1,42 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Ground here.
+ * Write a description of class ground here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Ground extends World
+public class ground extends World
 {
+    static int skor = 0;
+    static Point scores = null;
 
     /**
-     * Constructor for objects of class Ground.
+     * Constructor for objects of class ground.
      * 
      */
-    public Ground()
+    public ground()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        setPaintOrder(Background.class,BolaBiru.class,Bola.class,Coin.class);
+        setPaintOrder(Crash.class,Point.class,Bola.class,BolaBiru.class,Coin.class,Asphalt.class,Tree.class,Rock.class,Background.class);
+        
+        scores = new Point();
+        addObject(scores,468,50);
+        scores.setScore(0);
         
         prepare();
+    }
+    public Point getPoint()
+    {
+        return scores;
     }
     /**
      * Prepare the world for the start of the program. That is: create the initial
      * objects and add them to the world.
      * 
      */
+    
     private void prepare()
     {
         Asphalt asphalt = new Asphalt();
@@ -77,7 +88,7 @@ public class Ground extends World
         addObject(tree6, 389, 200);
         Tree tree7 = new Tree();
         addObject(tree7, 507, 356);
-        Tree tree8 = new Tree();
+        Tree  tree8= new Tree();
         addObject(tree8, 32, 45);
         Bola bola = new Bola();
         addObject(bola, 300, 363);
@@ -109,7 +120,7 @@ public class Ground extends World
         addObject(background3, 165, 179);
         background3.setLocation(142, 124);
         Background background4 = new Background();
-        addObject(background4, 142,  269);
+        addObject(background4, 142, 269);
         background4.setLocation(132, 179);
         Background background5 = new Background();
         addObject(background5, 93, 294);
@@ -153,6 +164,5 @@ public class Ground extends World
         addObject(rock2, 42, 209);
         Rock rock3 = new Rock();
         addObject(rock2, 151, 378);
-       
     }
 }

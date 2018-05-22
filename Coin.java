@@ -12,15 +12,24 @@ public class Coin extends Actor
      * Act - do whatever the Coin wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    World world;
     public void act() 
     {
         // Add your action code here.
-        setLocation(getX(),getY()+4);
-        Actor ball = getOneIntersectingObject(Bola.class);
-        world = getWorld();
-        if (isAtEdge())
-        {
+         setLocation(getX(),getY()+4);
+         Actor ball = getOneIntersectingObject(Bola.class);//deteksibolaapakahmenyentuhatautidak
+         world = getWorld();
+         if (isAtEdge())
+         {
             world.removeObject(this);
+         }
+         if(ball != null)
+         {
+            getWorld().removeObject(this);
+            ground.skor++;
+            ground.scores.setScore(ground.skor);
+          
+         }
         }
-    }    
-}
+}   
+    

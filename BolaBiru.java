@@ -12,14 +12,14 @@ public class BolaBiru extends Actor
      * Act - do whatever the BolaBiru wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int count=0;
+     private int count=0;
     World world;
     public void act() 
     {
         // Add your action code here.
-        setLocation(getX(),getY()+2);
+         setLocation(getX(),getY()+2);
             world = getWorld();
-            if(isAtEdge()){
+            if (isAtEdge()) {
                 world.removeObject(this);
             }
     }    

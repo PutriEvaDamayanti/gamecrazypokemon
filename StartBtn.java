@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class StartBtn here.
+ * Write a description of class StartButton here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -9,12 +9,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class StartBtn extends Buttons
 {
     /**
-     * Act - do whatever the StartBtn wants to do. This method is called whenever
+     * Act - do whatever the StartButton wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        // Add your action code here.
+        //run the Buttons class's act method and pass the name of this class to it.
         super.act(this.getClass().getName());
           Menus.titleSound.playLoop();
     }    

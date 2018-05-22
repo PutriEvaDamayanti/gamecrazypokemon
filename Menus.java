@@ -26,9 +26,9 @@ abstract class Menus extends World
             addObject(new AboutBtn(), 120, 300);
             addObject(new HelpBtn(),  40, 360);
             addObject(new ExitBtn(), 550, 350);
-                titleSound = new GreenfootSound("title-theme.mp3");
+                titleSound = new GreenfootSound("fix.mp3");
                  titleSound.stop();
-        titleSound.setVolume(0);
+        titleSound.setVolume(100);
         titleSound.playLoop();
         }
         else
@@ -36,4 +36,5 @@ abstract class Menus extends World
             addObject(new BackBtn(), 100, 500);
         }
     }
+   
 }
