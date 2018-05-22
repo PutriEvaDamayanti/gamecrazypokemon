@@ -164,5 +164,6 @@ public class ground extends World
         addObject(rock2, 42, 209);
         Rock rock3 = new Rock();
         addObject(rock2, 151, 378);
+        
     }
 }
